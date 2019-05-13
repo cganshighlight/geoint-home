@@ -1,0 +1,29 @@
+button{
+    border:solid 1px #0A2E49!important;
+}
+.MuiTabs-flexContainer-50{
+    justify-content:space-around;
+}
+.MuiTab-root-58{
+    text-transform:none!important;
+    font-size:1.25em!important;
+}
+button[aria-selected = true]{
+    background-color:#0A2E49!important;
+    color:white;
+    }
+
+@media screen and (max-width: 768px){
+    .MuiTabs-flexContainer-50{
+        flex-direction:column;
+    }
+    .MuiButtonBase-root-29{
+        margin-bottom:15px!important;
+    }
+    .MuiButtonBase-root-29{
+        max-width:100%!important;
+    }
+    .MuiPrivateTabIndicator-colorPrimary-71{
+        display:none;
+    }
+}
